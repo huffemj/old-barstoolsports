@@ -20,6 +20,7 @@ $(".bslocale").remove();
 */
 var url  = document.URL;
 var $logoImg = $(".mainLogo");
+$("body").css({"background": "url(http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/bg_stool.png)"});
 
 if (url.indexOf("boston") !== -1) {
   $logoImg.attr("src", "http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.iowa.barstoolsports.com/wp-content/themes/barstoolsports/img/logo-boston.png");
