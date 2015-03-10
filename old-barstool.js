@@ -20,7 +20,6 @@ $(".bslocale").remove();
 */
 var url  = document.URL;
 var $logoImg = $(".mainLogo");
-$("body").css({"background": "url(http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/bg_stool.png)"});
 
 if (url.indexOf("boston") !== -1) {
   $logoImg.attr("src", "http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.iowa.barstoolsports.com/wp-content/themes/barstoolsports/img/logo-boston.png");
@@ -42,6 +41,10 @@ if (url.indexOf("boston") !== -1) {
   $("body").css({"background": "url(http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/bg_stool_dmv.png)"});
 } else if (url.indexOf("barstoolu") !== -1) {
   $logoImg.attr("src", "http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.barstoolu.barstoolsports.com/wp-content/themes/barstoolu/img/logo.png");
+  $("body").css({"background": "url(http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/bg_stool.png)"});
+} else if (url.indexOf("tv.barstoolsports.com") !== -1) {
+  console.log("do nothing");
+} else {
   $("body").css({"background": "url(http://wac.9ebf.edgecastcdn.net/809EBF/ec-origin.boston.barstoolsports.com/wp-content/themes/barstoolsports/img/bg_stool.png)"});
 }
 
