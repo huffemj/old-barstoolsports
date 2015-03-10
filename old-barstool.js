@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       Better Barstool
+// @name       Old Barstoolsports
 // @description   Makes barstool as close to the old version and better fixes
 // @copyright     2015+ huffemj
 // @author        huffemj
