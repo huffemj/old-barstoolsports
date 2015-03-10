@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name       Better Barstool
 // @description   Makes barstool as close to the old version and better fixes
-// @copyright     2015+ yup
-// @author        yup
+// @copyright     2015+ huffemj
+// @author        huffemj
 // @version       1.0
 // @include    http://*.barstoolsports.com/*
 // ==/UserScript==
