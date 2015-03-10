@@ -49,15 +49,6 @@ if (url.indexOf("boston") !== -1) {
 }
 
 /**
-* Reverse comment order
-* http://stackoverflow.com/questions/5347839/jquery-reversing-the-order-of-child-elements
-*/
-var list = $(".comments_list");
-list = list.eq(list.length - 1);
-var listItems = list.children('li');
-list.append(listItems.get().reverse());
-
-/**
 * Display the comments by default and remove show/hide button
 */
 $("#mcomments").removeAttr("id");
