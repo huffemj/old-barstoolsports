@@ -56,7 +56,6 @@ list.append(listItems.get().reverse());
 
 /**
 * Display the comments by default and remove show/hide button
-* http://stackoverflow.com/questions/5347839/jquery-reversing-the-order-of-child-elements
 */
 $("#mcomments").removeAttr("id");
 $(".show_comments").remove();
